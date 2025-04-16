@@ -1,0 +1,135 @@
+.chatbot-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chatbot-icon img {
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .chatbot-container {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatbot-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .minimize-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f8f8f8;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+    max-width: 80%;
+  }
+  
+  .chat-message.user p {
+    background-color: #d4f1f9;
+    text-align: right;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: auto;
+  }
+  
+  .chat-message.bot p {
+    background-color: #eee;
+    text-align: left;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: auto;
+  }
+  
+  .chatbot-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chatbot-input input {
+    flex: 1;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chatbot-input button,
+.clear-btn {
+  font-family: 'Poppins', sans-serif; /* Change this to your desired font */
+  font-size: 10px;                    /* Adjust size as needed */
+  font-weight: 400;                   /* Optional: makes the text bolder */
+}
+
+  
+  .chat-quick-options {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .chat-quick-options button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .chat-quick-options button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .chat-message.bot a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .chat-message.bot a:hover {
+    text-decoration: underline;
+  }
+
+  .clear-btn {
+    margin-left: 8px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  

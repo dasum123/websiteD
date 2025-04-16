@@ -4,14 +4,16 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import Chatbot from './Chatbot';
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+
+// function MyButton() {
+//   return (
+//     <button>
+//       I'm a button
+//     </button>
+//   );
+// }
 
 function App() {
   return (
@@ -26,22 +28,23 @@ function App() {
           element={
             <div>
               <header className="App-header">
-                <h1>Welcome to Maami's Website</h1>
+                <h1>Welcome to Divis Website</h1>
                 <img src="/swan.jpg" className="App-logo" alt="logo" />
                 <p>
-                  Edit <code>src/App.js</code> and save to reload.
+                  click on the chatbot displayed below to get your links!
                 </p>
-                <MyButton />
-                <a
+
+               {/* <MyButton /> */}
+                {/* <a
                   className="App-link"
                   href="https://reactjs.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Learn React
-                </a>
+                </a> */}
               </header>
-              <Home />
+           
             </div>
           }
         />
@@ -49,6 +52,9 @@ function App() {
         {/* About Page */}
         <Route path="/about" element={<About />} />
       </Routes>
+
+        {/* Chatbot is fixed and appears on every page */}
+        <Chatbot />
     </div>
   );
 }

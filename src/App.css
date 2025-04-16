@@ -40,3 +40,16 @@
     75% {transform: rotate(-15deg); }
     100% {transform: rotate(0deg); }
 }
+
+.page-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-image {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+

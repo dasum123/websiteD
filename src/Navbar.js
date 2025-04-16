@@ -4,11 +4,11 @@ function Navbar() {
   return (
     <nav style={styles.navbar}>
       <Link to="/" style={styles.link}>
-        <img src="/icons/home.png" alt="Home" style={styles.icon} />
+        <img src="/home.png" alt="Home" style={styles.icon} />
         <span>Home</span>
       </Link>
       <Link to="/about" style={styles.link}>
-        <img src="/icons/about.png" alt="About" style={styles.icon} />
+        <img src="about.png" alt="About" style={styles.icon} />
         <span>About</span>
       </Link>
     </nav>
@@ -21,7 +21,9 @@ const styles = {
     display: 'flex',
     gap: '20px', // Adds space between Home and About
     padding: '10px',
-    background: '#333',
+    background: '#32CD32', // Purple background
+    borderBottom: '1px solid #ddd',
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.05)',
   },
   link: {
     color: 'white',
