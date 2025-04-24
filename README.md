@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This website was created as a personal project to explore and deepen my understanding of React and its ecosystem. As part of the learning process, I also built an integrated chatbot feature to enhance interactivity and gain hands-on experience with conversational UI components.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
